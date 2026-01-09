@@ -1,0 +1,14 @@
+Now that i have multiple win vm on the proxmox but at the same time got another ea that is hosted in 2 different mini pc (only 1 ea instance is runningon each mini pc) that is used to multiple ea. now i have an issue of tracking whether the
+
+1. The vm/mini pc is on or off ; could have the off and being turned back on
+2. The  vm/mini pc may be on but is in  Out-Of-Box Experience (OOBE).
+3. Network stability. sometimes vm/mini pc is disconnected from wifi due to having network issue .
+
+
+I wanted to make sure that the 
+
+1. ea is up and running on the mt5 application always
+2. Ensure network on mini pc/vm is always connected and stable and ensuring network inside the mt5 application is also able to connect to the nearst server (logging the network of host and connection to the mt5 server)
+3, I want also a alert notification in case on of the objective is failing i would be notified as fast as possible
+
+I wanted to make a tool to achieve all of the objective mentioned. not sure if learning grafana can help to achieve this goal, wdyt? But if you do have an idea lets see the overview for the item to be done and tackle it one by one item0
